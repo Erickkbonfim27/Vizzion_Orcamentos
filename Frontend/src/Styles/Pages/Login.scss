@@ -1,0 +1,106 @@
+.Login {
+  width: 100%;
+  display: flex;
+  gap: 5%;
+
+  .loginLeft {
+    width: 50%;
+    padding: 3%;
+
+    .LoginLeft {
+      width: 50%;
+      position: relative;
+      margin: 0 auto;
+
+      .LoginTitle {
+        margin-top: 14%;
+        text-transform: uppercase;
+        color: #212121;
+        font-weight: 700;
+        font-size: 65px;
+        margin-bottom: 50px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        margin: 0 auto;
+        padding: 3%;
+        color: $main-color;
+        background-color: $Green-second-Color;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        border: none;
+        border-radius: 5px;
+        font-size: 25px;
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.204) 0px 5px 15px;
+        margin-bottom: 45px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: $main-color;
+        color: $Green-second-Color;
+        box-shadow: rgba(22, 56, 3, 0.487) 0px 5px 15px;
+      }
+
+      .Links {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+          font-weight: 600;
+          color: #212121;
+        }
+        a:hover {
+          background-color: $main-color;
+          padding: 2%;
+          color: $Green-second-Color;
+          margin: 2%;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+
+  .loginRight {
+    width: 45%;
+    background-image: url("../../Assets/fundo-login.svg");
+    height: 100vh;
+
+    .LoginRigthAssets {
+      display: flex;
+      flex-direction: column;
+      max-width: 700px;
+      margin: 0 auto;
+
+      .LoginRigthFotologin {
+        width: auto;
+        height: 700px;
+        margin-top: 10%;
+      }
+    }
+    .assideSpan {
+      width: 165px;
+      height: auto;
+      background-image: linear-gradient(#14b557, #197d00);
+      margin-top: -90px;
+      font-size: 22px;
+      text-align: left;
+      align-items: center;
+      border-radius: 25px 0px 25px 0px;
+      color: #fff;
+      word-wrap: break-word;
+      line-height: 24px;
+      padding-right: 45px;
+      padding-left: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left: 40px;
+    }
+  }
+}

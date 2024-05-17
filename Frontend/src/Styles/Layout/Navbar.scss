@@ -1,0 +1,59 @@
+.Navbar {
+    background-color: $main-color;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    top: 0;
+    position: relative;
+    z-index: 1000;
+  
+  
+    .Navbar_Logo img {
+      width: 200px;
+      margin-left: 65px;
+    }
+  
+    .Links {
+        list-style: none;
+        display: inline-flex;
+        font-size: 13px;
+        gap: 49px;
+
+        li {
+
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+      span {
+        background-color: $Green-second-Color;
+        padding: 3px 25px; 
+        text-decoration: none; 
+        border-radius: 3px; 
+        
+        a{
+          color: $main-color !important;
+        }
+        .PerfilLinkNavbar{
+          font-weight: 500;
+          padding: 20px;
+          font-size: 15px;
+          padding-right: 10px;
+        }
+        i{
+          font-size: 17px;
+          color: $main-color;
+          font-weight: bold;
+          padding: 5px;
+          padding-top: 12px;
+          margin-top: 12px;
+        }
+      }
+      margin-right: 65px;
+    }
+  }
+  

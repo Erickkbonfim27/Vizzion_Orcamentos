@@ -1,0 +1,46 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 28px;
+    overflow: hidden;
+    width: 400px;
+    box-shadow: rgba(73, 75, 77, 0.436) 0px 8px 24px;
+    
+  
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  
+    .CardTexts {
+      padding: 15px;
+      background-color: $main-color;
+      padding: 2rem;
+  
+      h3 {
+        font-size: 35px;
+        color: #fff;
+      }
+  
+      span::after {
+        content: '';
+        display: block;
+        width: 75px;
+        height: 8px;
+        border-radius: 8px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        background-color: $Green-second-Color;
+      }
+  
+      p {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 10px;
+      }
+    }
+  
+    
+    }
+  

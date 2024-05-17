@@ -1,0 +1,20 @@
+.GerarOrcamentoBotao {
+  width: 100%;
+
+  .botaoEmitirOrcamento {
+    width: 100%;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #141414;
+    padding: 5%;
+    border-radius: 10px;
+    line-height: 100%;
+    font-size: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+  }
+  .icone {
+    font-size: 20px;
+  }
+}

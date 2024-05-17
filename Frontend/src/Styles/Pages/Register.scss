@@ -1,0 +1,139 @@
+.Register {
+  width: 100%;
+  display: flex;
+  gap: 5%;
+
+  .RegisterLeft {
+    width: 50%;
+    padding: 3%;
+
+    .RegisterLeftz {
+      width: 80%;
+      position: relative;
+      margin: 0 auto;
+
+      .RegisterTitle {
+        margin-top: 14%;
+        text-transform: uppercase;
+        color: #212121;
+        font-weight: 700;
+        font-size: 65px;
+        margin-bottom: 50px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        padding: 2%;
+        color: $main-color;
+        background-color: $Green-second-Color;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 25px;
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.204) 0px 5px 15px;
+        margin-bottom: 45px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: $main-color;
+        color: $Green-second-Color;
+        box-shadow: rgba(22, 56, 3, 0.487) 0px 5px 15px;
+      }
+
+      .Links {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+
+        a {
+          text-decoration: none;
+          font-weight: 600;
+          color: #212121;
+        }
+        a:hover {
+          color: $Green-second-Color;
+          border-radius: 10px;
+        }
+      }
+    }
+
+    .inlineForm {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+
+      .form_control {
+        width: 100%;
+      }
+    }
+    .inlineForm3 {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: center;
+
+      .Endereco {
+        width: 60%;
+      }
+      .CheckObraAtiva {
+        width: 40%;
+        display: inline-flex;
+        align-items: center;
+
+        .checkdeobras {
+            width: 27px;
+            height: 27px;
+            margin-right: 20px;
+            margin-left: 20px;
+            border: 2px solid #14b557;
+        
+            &:checked {
+                background-color: #14b557;
+            }
+        }
+      }
+    }
+  }
+
+  .RegisterRight {
+    width: 45%;
+    background-image: url("../../Assets/fundo-login.svg");
+    height: 130vh;
+
+    .RegisterRigthAssets {
+      display: flex;
+      flex-direction: column;
+      max-width: 700px;
+      margin: 0 auto;
+
+      .RegisterRigthFotologin {
+        width: auto;
+        height: 700px;
+        margin-top: 10%;
+      }
+    }
+    .assideSpan {
+      width: 165px;
+      height: auto;
+      background-image: linear-gradient(#14b557, #197d00);
+      margin-top: -90px;
+      font-size: 22px;
+      text-align: left;
+      align-items: center;
+      border-radius: 25px 0px 25px 0px;
+      color: #fff;
+      word-wrap: break-word;
+      line-height: 24px;
+      padding-right: 45px;
+      padding-left: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      margin-left: 40px;
+    }
+  }
+}

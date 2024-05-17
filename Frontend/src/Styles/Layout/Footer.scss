@@ -1,0 +1,74 @@
+.Footer {
+  width: 100%;
+  background-color: $main-color;
+  padding: 3%;
+  padding-right: 0;
+  padding-left: 0;
+
+  .FooterDataHeader {
+    display: flex;
+    margin-bottom: 58px;
+    justify-content: space-between;
+
+    .footerInfo {
+      display: flex;
+
+      .Infos {
+        margin-left: 35px;
+
+        ul {
+          list-style-type: disc;
+        }
+        h2 {
+          text-transform: uppercase;
+          color: $Green-second-Color;
+          font-size: 45px;
+        }
+        ul li {
+          color: #fff;
+          margin-left: 25px;
+        }
+      }
+    }
+    .FaleConosco{
+        background-color: #fff;
+        width: 470px;
+        margin-right: 50px;
+        text-align: center;
+        border-radius: 8px;
+
+        h2{
+            text-transform: uppercase;
+            font-size: 35px;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+        .Icones{
+            font-size: 34px;
+            display: flex;
+            gap: 25px;
+            color: #031521;
+            margin-left: 30%;
+            margin-top: 14px;
+            margin-bottom: 20px;
+            
+            
+        }
+    }
+  }
+  .LogoDireitos{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 1%;
+
+
+    img {
+        width: 50vh;
+        padding-right: 750px;
+    }
+    p{
+        font-size: 14px;
+    }
+  }
+}
